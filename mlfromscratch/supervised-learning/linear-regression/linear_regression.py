@@ -1,7 +1,7 @@
 import jax
 import jax.numpy as jnp
 from jax import jit
-from ..utils.metrics import mean_squared_error
+from ..utils.losses import mean_squared_error
 
 
 class LinearRegression:

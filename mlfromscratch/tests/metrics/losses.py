@@ -1,7 +1,7 @@
 import jax
 import jax.numpy as jnp
 import unittest
-from ...utils.metrics import mean_squared_error
+from ...utils.losses import mean_squared_error
 
 class TestMeanSquaredError(unittest.TestCase):
     def test_basic_mse(self):
